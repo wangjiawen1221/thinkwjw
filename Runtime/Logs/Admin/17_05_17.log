@@ -1,0 +1,657 @@
+[ 2017-05-17T09:38:55+08:00 ] 218.94.111.198 /thinkwjw/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-05-17T09:38:55+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-05-17T09:38:58+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [2] Invalid argument supplied for foreach() /yjdata/www/thinkwjw/Application/Common/Model/OauthUserModel.class.php 第 66 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-05-17T09:38:59+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0024s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-05-17T13:36:00+08:00 ] 218.94.111.198 /thinkwjw/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-05-17T13:36:00+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: ADMIN_PASSWORD /yjdata/www/thinkwjw/Runtime/Cache/Admin/b891abcc3bb76636e2a96a245e9568d6.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2017-05-17T13:36:00+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Login/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2017-05-17T13:36:09+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0023s ]
+SQL: SELECT `value` FROM `wjw_config` WHERE `name` = 'ADMIN_PASSWORD' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-05-17T13:36:10+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Undefined index: ADMIN_PASSWORD /yjdata/www/thinkwjw/Runtime/Cache/Admin/b891abcc3bb76636e2a96a245e9568d6.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-05-17T13:36:10+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Login/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-05-17T13:36:17+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0021s ]
+SQL: SELECT `value` FROM `wjw_config` WHERE `name` = 'ADMIN_PASSWORD' LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2017-05-17T13:36:18+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2017-05-17T13:36:19+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-05-17T13:36:24+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2017-05-17T13:36:25+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0025s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.2037s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0024s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-17T13:36:29+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Tag/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-05-17T13:36:30+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Tag/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-05-17T13:36:31+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: cid /yjdata/www/thinkwjw/Runtime/Cache/Admin/8a25fd7a872c6677dccd5d28490b6ff3.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-05-17T13:36:31+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Category/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2017-05-17T13:36:32+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Category/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: cid /yjdata/www/thinkwjw/Runtime/Cache/Admin/8a25fd7a872c6677dccd5d28490b6ff3.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-05-17T13:36:33+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0022s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-05-17T13:36:34+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2017-05-17T13:36:36+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0023s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2017-05-17T13:36:50+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0025s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WEB_STATUS' [ RunTime:0.0049s ]
+SQL: UPDATE `wjw_config` SET `value`='网站升级中，请稍后访问。' WHERE `name` = 'WEB_CLOSE_WORD' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_ICP_NUMBER' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='wangjiawen1992@qq.com' WHERE `name` = 'ADMIN_EMAIL' [ RunTime:0.0043s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'WEB_NAME' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文,技术博客,个人博客,wjwblog' WHERE `name` = 'WEB_KEYWORDS' [ RunTime:0.0127s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文的个人技术博客,wjwblog官方网站' WHERE `name` = 'WEB_DESCRIPTION' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'AUTHOR' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='本文为王加文原创文章,转载无需和我联系,但请注明来自王加文博客wjiawen.cn' WHERE `name` = 'COPYRIGHT_WORD' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'IMAGE_TITLE_ALT_WORD' [ RunTime:0.0039s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WATER_TYPE' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='wjiawen.cn' WHERE `name` = 'TEXT_WATER_WORD' [ RunTime:0.0040s ]
+SQL: UPDATE `wjw_config` SET `value`='./Public/static/font/ariali.ttf' WHERE `name` = 'TEXT_WATER_TTF_PTH' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='15' WHERE `name` = 'TEXT_WATER_FONT_SIZE' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='#008CBA' WHERE `name` = 'TEXT_WATER_COLOR' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'TEXT_WATER_ANGLE' [ RunTime:0.0047s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'TEXT_WATER_LOCATE' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='./Upload/image/logo/logo.png' WHERE `name` = 'IMAGE_WATER_PIC_PTAH' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'IMAGE_WATER_LOCATE' [ RunTime:0.0044s ]
+SQL: UPDATE `wjw_config` SET `value`='80' WHERE `name` = 'IMAGE_WATER_ALPHA' [ RunTime:0.0040s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_ID' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_KEY' [ RunTime:0.0052s ]
+SQL: UPDATE `wjw_config` SET `value`='4171187846' WHERE `name` = 'SINA_API_KEY' [ RunTime:0.0108s ]
+SQL: UPDATE `wjw_config` SET `value`='fbc9f8ee520387ac15d38ea41f1ae0bd' WHERE `name` = 'SINA_SECRET' [ RunTime:0.0046s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_API_KEY' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_SECRET' [ RunTime:0.0040s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_API_KEY' [ RunTime:0.0053s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_SECRET' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_API_KEY' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_SECRET' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_ID' [ RunTime:0.0702s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_SECRET' [ RunTime:0.0046s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_API_KEY' [ RunTime:0.0053s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_SECRET' [ RunTime:0.0053s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'BAIDU_SITE_URL' [ RunTime:0.0051s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_STATISTICS' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_SMTP' [ RunTime:0.0046s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_USERNAME' [ RunTime:0.0064s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_PASSWORD' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_FROM_NAME' [ RunTime:0.0048s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_REVIEW' [ RunTime:0.0041s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'COMMENT_SEND_EMAIL' [ RunTime:0.0042s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_RECEIVE' [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: CHANGYAN_COMMENT /yjdata/www/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 26 行.
+NOTIC: [2] file_put_contents(./Application/Common/Conf/webconfig.php): failed to open stream: Permission denied /yjdata/www/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2017-05-17T13:36:51+08:00 ] 218.94.111.198 /thinkwjw/index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0024s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+

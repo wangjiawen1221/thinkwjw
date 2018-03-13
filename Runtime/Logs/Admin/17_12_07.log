@@ -1,0 +1,347 @@
+[ 2017-12-07T13:24:04+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-12-07T13:24:05+08:00 ] 218.94.111.198 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined index: ADMIN_PASSWORD /var/www/html/thinkwjw/Runtime/Cache/Admin/b891abcc3bb76636e2a96a245e9568d6.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-12-07T13:24:05+08:00 ] 218.94.111.198 /index.php/Admin/Login/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-12-07T13:24:12+08:00 ] 218.94.111.198 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `wjw_config` WHERE `name` = 'ADMIN_PASSWORD' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-12-07T13:24:13+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-12-07T13:24:13+08:00 ] 218.94.111.198 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-12-07T13:24:15+08:00 ] 218.94.111.198 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '31'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 31 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '30'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 30 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '29'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 29 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '28'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 28 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '27'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 27 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '26'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 26 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '25'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 25 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '24'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 24 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '23'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 23 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '22'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 22 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '21'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 21 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '20'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 20 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-12-07T13:24:19+08:00 ] 218.94.111.198 /index.php/Admin/Article/edit/aid/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wjw_article` WHERE `aid` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tid` FROM `wjw_article_tag` WHERE `aid` = 25  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '25'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname`,`keywords` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-12-07T13:28:46+08:00 ] 218.94.111.198 /index.php/Admin/Article/edit/aid/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_article` SET `aid`='25',`cid`='28',`title`='mysql,删除某个字段重复的数据,insert into，sql语句',`author`='王加文',`keywords`='mysql删除某个字段重复的数据 ',`description`='mysql,删除某个字段重复的数据,insert into，sql语句',`is_original`='0',`is_top`='0',`is_show`='1',`content`='&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;/Upload/image/ueditor/20171012/1507794783577334.jpg&quot; title=&quot;白俊遥博客&quot; alt=&quot;白俊遥博客&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;pre class=&quot;prettyprint&quot; name=&quot;code&quot;&gt;1.&amp;nbsp;&amp;nbsp;DELETE&amp;nbsp;FROM&amp;nbsp;tablename&amp;nbsp;where&amp;nbsp;id&amp;nbsp;not&amp;nbsp;in&amp;nbsp;
+(select&amp;nbsp;id&amp;nbsp;from&amp;nbsp;(select&amp;nbsp;min(id)&amp;nbsp;as&amp;nbsp;id&amp;nbsp;from&amp;nbsp;tablename&amp;nbsp;group&amp;nbsp;by&amp;nbsp;key)&amp;nbsp;as&amp;nbsp;b&amp;nbsp;);&lt;/pre&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;其中key是重复的字段&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;方式1.&amp;nbsp; INSERT INTO t1(field1,field2) &lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;VALUE&lt;/span&gt;(v001,v002);&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;方式2.&amp;nbsp; INSERT INTO t1(field1,field2) &lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;VALUE&lt;span style=&quot;text-decoration: underline;&quot;&gt;S&lt;/span&gt;&lt;/span&gt;(v101,v102),(v201,v202),(v301,v302),(v401,v402);&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;em&gt;&lt;strong&gt;注释：在插入批量数据时方式2优于方式1.&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;em&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;em&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;方式3.&amp;nbsp; INSERT INTO t2(field1,field2) SELECT col1,col2 FROM t1 WHERE ……&lt;br/&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;strong&gt;&lt;strong&gt;注释：&lt;/strong&gt;这里简单说一下，由于可以指定插入到talbe2中的列，以及可以通过相对较复杂的查询语句进行数据源获取，可能使用起来会更加的灵活一些，但我们也必须注意，我们在指定目标表的列时，一定要将所有非空列都填上，否则将无法进行数据插入，还有一点比较容易出错的地方就是，当我们写成如下简写格式：&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:18px&quot;&gt;方式3.2、&amp;nbsp; INSERT INTO t2 SELECT id, name, address FROM t1&lt;/span&gt;&lt;span style=&quot;font-size:18px&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;strong&gt;&lt;strong&gt;注释：&lt;/strong&gt;&lt;/strong&gt;&lt;/span&gt;此时，我们如果略掉了目标表的列的话，则默认会对目标表的全部列进行数据插入，且SELECT后面的列的顺序 必须和目标表中的列的定义顺序完全一致 才能完成正确的数据插入，这是一个很容易被忽略的地方，值得注意&lt;/strong&gt;&lt;strong&gt;。&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;em&gt;&lt;strong&gt;&lt;br/&gt;&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE `aid` = 25 [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_tag` WHERE `aid` = 25 [ RunTime:0.0027s ]
+SQL: INSERT INTO `wjw_article_tag` (`aid`,`tid`) VALUES ('25','21') [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_pic` WHERE `aid` = 25 [ RunTime:0.0026s ]
+SQL: INSERT INTO `wjw_article_pic` (`aid`,`path`) VALUES ('25','/Upload/image/ueditor/20171012/1507794783577334.jpg') [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-12-07T13:28:47+08:00 ] 218.94.111.198 /index.php/Admin/Article/edit/aid/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wjw_article` WHERE `aid` = 25 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tid` FROM `wjw_article_tag` WHERE `aid` = 25  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '25'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname`,`keywords` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-12-07T14:24:37+08:00 ] 220.181.108.142 /index.php/Admin/Article/edit/aid/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-12-07T14:24:37+08:00 ] 220.181.108.106 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: ADMIN_PASSWORD /var/www/html/thinkwjw/Runtime/Cache/Admin/b891abcc3bb76636e2a96a245e9568d6.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+

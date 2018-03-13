@@ -1,0 +1,2635 @@
+[ 2017-10-24T14:12:16+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-24T14:12:17+08:00 ] 218.94.111.198 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Undefined index: ADMIN_PASSWORD /var/www/html/thinkwjw/Runtime/Cache/Admin/b891abcc3bb76636e2a96a245e9568d6.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-10-24T14:12:17+08:00 ] 218.94.111.198 /index.php/Admin/Login/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000036s ]
+
+[ 2017-10-24T14:12:24+08:00 ] 218.94.111.198 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0006s ]
+SQL: SELECT `value` FROM `wjw_config` WHERE `name` = 'ADMIN_PASSWORD' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T14:12:25+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:12:25+08:00 ] 218.94.111.198 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:12:28+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000027s ]
+
+[ 2017-10-24T14:22:10+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WEB_STATUS' [ RunTime:0.0026s ]
+SQL: UPDATE `wjw_config` SET `value`='网站升级中，请稍后访问。' WHERE `name` = 'WEB_CLOSE_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_ICP_NUMBER' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='wangjiawen1992@qq.com' WHERE `name` = 'ADMIN_EMAIL' [ RunTime:0.0012s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'WEB_NAME' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文,技术博客,个人博客,wjwblog' WHERE `name` = 'WEB_KEYWORDS' [ RunTime:0.0012s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文的个人技术博客,wjwblog官方网站' WHERE `name` = 'WEB_DESCRIPTION' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'AUTHOR' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='本文为王加文原创文章,转载无需和我联系,但请注明来自王加文博客wjiawen.cn' WHERE `name` = 'COPYRIGHT_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'IMAGE_TITLE_ALT_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WATER_TYPE' [ RunTime:0.0023s ]
+SQL: UPDATE `wjw_config` SET `value`='wjiawen.cn' WHERE `name` = 'TEXT_WATER_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='./Public/static/font/ariali.ttf' WHERE `name` = 'TEXT_WATER_TTF_PTH' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='15' WHERE `name` = 'TEXT_WATER_FONT_SIZE' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='#008CBA' WHERE `name` = 'TEXT_WATER_COLOR' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'TEXT_WATER_ANGLE' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'TEXT_WATER_LOCATE' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='./Upload/image/logo/logo.png' WHERE `name` = 'IMAGE_WATER_PIC_PTAH' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'IMAGE_WATER_LOCATE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='80' WHERE `name` = 'IMAGE_WATER_ALPHA' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_ID' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='4171187846' WHERE `name` = 'SINA_API_KEY' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='fbc9f8ee520387ac15d38ea41f1ae0bd' WHERE `name` = 'SINA_SECRET' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_API_KEY' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_API_KEY' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_SECRET' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_ID' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_SECRET' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_SECRET' [ RunTime:0.0012s ]
+SQL: UPDATE `wjw_config` SET `value`='http://data.zz.baidu.com/urls?site=www.wjiawen.cn&amp;token=FfF4ML2eF6ILK2Nv' WHERE `name` = 'BAIDU_SITE_URL' [ RunTime:0.0025s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_STATISTICS' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_SMTP' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_USERNAME' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_PASSWORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_FROM_NAME' [ RunTime:0.0428s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_REVIEW' [ RunTime:0.0024s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'COMMENT_SEND_EMAIL' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_RECEIVE' [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: CHANGYAN_COMMENT /var/www/html/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T14:22:11+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-10-24T14:24:46+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:24:47+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:24:48+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '19'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 19 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '18'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 18 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:24:51+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T14:24:56+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-10-24T14:28:07+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WEB_STATUS' [ RunTime:0.0027s ]
+SQL: UPDATE `wjw_config` SET `value`='网站升级中，请稍后访问。' WHERE `name` = 'WEB_CLOSE_WORD' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_ICP_NUMBER' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='wangjiawen1992@qq.com' WHERE `name` = 'ADMIN_EMAIL' [ RunTime:0.0024s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'WEB_NAME' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文,技术博客,个人博客,wjwblog' WHERE `name` = 'WEB_KEYWORDS' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文的个人技术博客,wjwblog官方网站' WHERE `name` = 'WEB_DESCRIPTION' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'AUTHOR' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='本文为王加文原创文章,转载无需和我联系,但请注明来自王加文博客wjiawen.cn' WHERE `name` = 'COPYRIGHT_WORD' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'IMAGE_TITLE_ALT_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WATER_TYPE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='wjiawen.cn' WHERE `name` = 'TEXT_WATER_WORD' [ RunTime:0.0037s ]
+SQL: UPDATE `wjw_config` SET `value`='./Public/static/font/ariali.ttf' WHERE `name` = 'TEXT_WATER_TTF_PTH' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='15' WHERE `name` = 'TEXT_WATER_FONT_SIZE' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='#008CBA' WHERE `name` = 'TEXT_WATER_COLOR' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'TEXT_WATER_ANGLE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'TEXT_WATER_LOCATE' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='./Upload/image/logo/logo.png' WHERE `name` = 'IMAGE_WATER_PIC_PTAH' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'IMAGE_WATER_LOCATE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='80' WHERE `name` = 'IMAGE_WATER_ALPHA' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_ID' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_KEY' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='4171187846' WHERE `name` = 'SINA_API_KEY' [ RunTime:0.0015s ]
+SQL: UPDATE `wjw_config` SET `value`='fbc9f8ee520387ac15d38ea41f1ae0bd' WHERE `name` = 'SINA_SECRET' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_API_KEY' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_SECRET' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_API_KEY' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_ID' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_SECRET' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_API_KEY' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='http://data.zz.baidu.com/urls?site=www.wjiawen.cn&amp;token=FfF4ML2eF6ILK2Nv' WHERE `name` = 'BAIDU_SITE_URL' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_STATISTICS' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='smtp.exmail.qq.com' WHERE `name` = 'EMAIL_SMTP' [ RunTime:0.0024s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_USERNAME' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='jcdkutjvpxmkbhdb' WHERE `name` = 'EMAIL_PASSWORD' [ RunTime:0.0400s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'EMAIL_FROM_NAME' [ RunTime:0.0024s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_REVIEW' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'COMMENT_SEND_EMAIL' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'EMAIL_RECEIVE' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: CHANGYAN_COMMENT /var/www/html/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-10-24T14:28:08+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:28:36+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WEB_STATUS' [ RunTime:0.0027s ]
+SQL: UPDATE `wjw_config` SET `value`='网站升级中，请稍后访问。' WHERE `name` = 'WEB_CLOSE_WORD' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_ICP_NUMBER' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='wangjiawen1992@qq.com' WHERE `name` = 'ADMIN_EMAIL' [ RunTime:0.0023s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'WEB_NAME' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文,技术博客,个人博客,wjwblog' WHERE `name` = 'WEB_KEYWORDS' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文的个人技术博客,wjwblog官方网站' WHERE `name` = 'WEB_DESCRIPTION' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'AUTHOR' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='本文为王加文原创文章,转载无需和我联系,但请注明来自王加文博客wjiawen.cn' WHERE `name` = 'COPYRIGHT_WORD' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'IMAGE_TITLE_ALT_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WATER_TYPE' [ RunTime:0.0009s ]
+SQL: UPDATE `wjw_config` SET `value`='wjiawen.cn' WHERE `name` = 'TEXT_WATER_WORD' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='./Public/static/font/ariali.ttf' WHERE `name` = 'TEXT_WATER_TTF_PTH' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='15' WHERE `name` = 'TEXT_WATER_FONT_SIZE' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='#008CBA' WHERE `name` = 'TEXT_WATER_COLOR' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'TEXT_WATER_ANGLE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'TEXT_WATER_LOCATE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='./Upload/image/logo/logo.png' WHERE `name` = 'IMAGE_WATER_PIC_PTAH' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'IMAGE_WATER_LOCATE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='80' WHERE `name` = 'IMAGE_WATER_ALPHA' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_ID' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='4171187846' WHERE `name` = 'SINA_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='fbc9f8ee520387ac15d38ea41f1ae0bd' WHERE `name` = 'SINA_SECRET' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_API_KEY' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_API_KEY' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_ID' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_SECRET' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_API_KEY' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='http://data.zz.baidu.com/urls?site=www.wjiawen.cn&amp;token=FfF4ML2eF6ILK2Nv' WHERE `name` = 'BAIDU_SITE_URL' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_STATISTICS' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='smtp.exmail.qq.com' WHERE `name` = 'EMAIL_SMTP' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_USERNAME' [ RunTime:0.0027s ]
+SQL: UPDATE `wjw_config` SET `value`='jcdkutjvpxmkbhdb' WHERE `name` = 'EMAIL_PASSWORD' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'EMAIL_FROM_NAME' [ RunTime:0.0446s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_REVIEW' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_SEND_EMAIL' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_RECEIVE' [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: CHANGYAN_COMMENT /var/www/html/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:28:37+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:28:38+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:33:07+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-24T14:33:07+08:00 ] 218.94.111.198 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: ADMIN_PASSWORD /var/www/html/thinkwjw/Runtime/Cache/Admin/b891abcc3bb76636e2a96a245e9568d6.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:33:07+08:00 ] 218.94.111.198 /index.php/Admin/Login/showVerify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000039s ]
+
+[ 2017-10-24T14:33:14+08:00 ] 218.94.111.198 /index.php/Admin/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` WHERE `is_admin` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `wjw_config` WHERE `name` = 'ADMIN_PASSWORD' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:33:15+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:33:15+08:00 ] 218.94.111.198 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:33:17+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000026s ]
+
+[ 2017-10-24T14:34:09+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T14:34:15+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Chat/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Chat/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '26'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 26 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '25'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 25 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '24'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 24 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '23'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 23 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '22'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 22 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '21'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 21 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '20'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 20 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000016s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.2015s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-10-24T14:34:25+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-10-24T14:34:26+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.2028s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:26+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000033s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0005s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-10-24T14:34:28+08:00 ] 218.94.111.198 /index.php/Admin/Chat/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:34:29+08:00 ] 218.94.111.198 /index.php/Admin/Chat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_chat` WHERE ( is_delete=0  ) ORDER BY date desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:34:30+08:00 ] 218.94.111.198 /index.php/Admin/Chat/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:34:48+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:34:48+08:00 ] 218.94.111.198 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:34:51+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:34:52+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:36:01+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WEB_STATUS' [ RunTime:0.0024s ]
+SQL: UPDATE `wjw_config` SET `value`='网站升级中，请稍后访问。' WHERE `name` = 'WEB_CLOSE_WORD' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_ICP_NUMBER' [ RunTime:0.0012s ]
+SQL: UPDATE `wjw_config` SET `value`='wangjiawen1992@qq.com' WHERE `name` = 'ADMIN_EMAIL' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'WEB_NAME' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文,技术博客,个人博客,wjwblog' WHERE `name` = 'WEB_KEYWORDS' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文的个人技术博客,wjwblog官方网站' WHERE `name` = 'WEB_DESCRIPTION' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'AUTHOR' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='本文为王加文原创文章,转载无需和我联系,但请注明来自王加文博客wjiawen.cn' WHERE `name` = 'COPYRIGHT_WORD' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'IMAGE_TITLE_ALT_WORD' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WATER_TYPE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='wjiawen.cn' WHERE `name` = 'TEXT_WATER_WORD' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='./Public/static/font/ariali.ttf' WHERE `name` = 'TEXT_WATER_TTF_PTH' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='15' WHERE `name` = 'TEXT_WATER_FONT_SIZE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='#008CBA' WHERE `name` = 'TEXT_WATER_COLOR' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'TEXT_WATER_ANGLE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'TEXT_WATER_LOCATE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='./Upload/image/logo/logo.png' WHERE `name` = 'IMAGE_WATER_PIC_PTAH' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'IMAGE_WATER_LOCATE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='80' WHERE `name` = 'IMAGE_WATER_ALPHA' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_ID' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='4171187846' WHERE `name` = 'SINA_API_KEY' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='fbc9f8ee520387ac15d38ea41f1ae0bd' WHERE `name` = 'SINA_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_API_KEY' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_API_KEY' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_SECRET' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_SECRET' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_ID' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_API_KEY' [ RunTime:0.0027s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='http://data.zz.baidu.com/urls?site=www.wjiawen.cn&amp;token=FfF4ML2eF6ILK2Nv' WHERE `name` = 'BAIDU_SITE_URL' [ RunTime:0.0023s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_STATISTICS' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='smtp.qq.com' WHERE `name` = 'EMAIL_SMTP' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_USERNAME' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='jcdkutjvpxmkbhdb' WHERE `name` = 'EMAIL_PASSWORD' [ RunTime:0.0418s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'EMAIL_FROM_NAME' [ RunTime:0.0028s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_REVIEW' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_SEND_EMAIL' [ RunTime:0.0025s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_RECEIVE' [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: CHANGYAN_COMMENT /var/www/html/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:36:02+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:37:59+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000029s ]
+
+[ 2017-10-24T14:38:11+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WEB_STATUS' [ RunTime:0.0025s ]
+SQL: UPDATE `wjw_config` SET `value`='网站升级中，请稍后访问。' WHERE `name` = 'WEB_CLOSE_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_ICP_NUMBER' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='wangjiawen1992@qq.com' WHERE `name` = 'ADMIN_EMAIL' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'WEB_NAME' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文,技术博客,个人博客,wjwblog' WHERE `name` = 'WEB_KEYWORDS' [ RunTime:0.0049s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文的个人技术博客,wjwblog官方网站' WHERE `name` = 'WEB_DESCRIPTION' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'AUTHOR' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='本文为王加文原创文章,转载无需和我联系,但请注明来自王加文博客wjiawen.cn' WHERE `name` = 'COPYRIGHT_WORD' [ RunTime:0.0025s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文博客' WHERE `name` = 'IMAGE_TITLE_ALT_WORD' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'WATER_TYPE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='wjiawen.cn' WHERE `name` = 'TEXT_WATER_WORD' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='./Public/static/font/ariali.ttf' WHERE `name` = 'TEXT_WATER_TTF_PTH' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='15' WHERE `name` = 'TEXT_WATER_FONT_SIZE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='#008CBA' WHERE `name` = 'TEXT_WATER_COLOR' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'TEXT_WATER_ANGLE' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'TEXT_WATER_LOCATE' [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_config` SET `value`='./Upload/image/logo/logo.png' WHERE `name` = 'IMAGE_WATER_PIC_PTAH' [ RunTime:0.0013s ]
+SQL: UPDATE `wjw_config` SET `value`='9' WHERE `name` = 'IMAGE_WATER_LOCATE' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='80' WHERE `name` = 'IMAGE_WATER_ALPHA' [ RunTime:0.0012s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_ID' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'QQ_APP_KEY' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='4171187846' WHERE `name` = 'SINA_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='fbc9f8ee520387ac15d38ea41f1ae0bd' WHERE `name` = 'SINA_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_API_KEY' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'DOUBAN_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'RENREN_SECRET' [ RunTime:0.0043s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_API_KEY' [ RunTime:0.0022s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'KAIXIN_SECRET' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_ID' [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'GITHUB_CLIENT_SECRET' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_API_KEY' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'SOHU_SECRET' [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_config` SET `value`='http://data.zz.baidu.com/urls?site=www.wjiawen.cn&amp;token=FfF4ML2eF6ILK2Nv' WHERE `name` = 'BAIDU_SITE_URL' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='' WHERE `name` = 'WEB_STATISTICS' [ RunTime:0.0053s ]
+SQL: UPDATE `wjw_config` SET `value`='smtp.qq.com' WHERE `name` = 'EMAIL_SMTP' [ RunTime:0.0366s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_USERNAME' [ RunTime:0.0025s ]
+SQL: UPDATE `wjw_config` SET `value`='jcdkutjvpxmkbhdb' WHERE `name` = 'EMAIL_PASSWORD' [ RunTime:0.0023s ]
+SQL: UPDATE `wjw_config` SET `value`='王加文' WHERE `name` = 'EMAIL_FROM_NAME' [ RunTime:0.0010s ]
+SQL: UPDATE `wjw_config` SET `value`='1' WHERE `name` = 'COMMENT_REVIEW' [ RunTime:0.0023s ]
+SQL: UPDATE `wjw_config` SET `value`='0' WHERE `name` = 'COMMENT_SEND_EMAIL' [ RunTime:0.0011s ]
+SQL: UPDATE `wjw_config` SET `value`='291120569@qq.com' WHERE `name` = 'EMAIL_RECEIVE' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CHANGYAN_COMMENT /var/www/html/thinkwjw/Application/Common/Model/ConfigModel.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-10-24T14:38:12+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-10-24T14:38:14+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000036s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:38:16+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-10-24T14:38:16+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '19'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 19 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '18'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 18 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:38:17+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-10-24T14:38:18+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:38:22+08:00 ] 218.94.111.198 /index.php/Admin/Chat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wjw_chat` WHERE ( is_delete=0  ) ORDER BY date desc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:38:23+08:00 ] 218.94.111.198 /index.php/Admin/Chat/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:38:24+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:38:25+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-10-24T14:38:37+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000025s ]
+
+[ 2017-10-24T14:38:45+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-10-24T14:38:54+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000031s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000035s ]
+
+[ 2017-10-24T14:38:55+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:40:44+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:40:44+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000009s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:40:44+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000016s ]
+
+[ 2017-10-24T14:50:46+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-10-24T14:50:46+08:00 ] 218.94.111.198 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:50:49+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:50:50+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000028s ]
+
+[ 2017-10-24T14:51:51+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000038s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000021s ]
+
+[ 2017-10-24T14:51:53+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:51:57+08:00 ] 218.94.111.198 /index.php/Admin/Comment/change_status/cmtid/6/status/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0005s ]
+SQL: UPDATE `wjw_comment` SET `status`='0' WHERE `cmtid` = 6 [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:51:58+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:52:12+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/recycle/table_name/Comment/id_name/cmtid/id_number/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000032s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0008s ]
+SQL: UPDATE `wjw_comment` SET `is_delete`='1' WHERE `cmtid` = 6 [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000024s ]
+
+[ 2017-10-24T14:52:13+08:00 ] 218.94.111.198 /index.php/Admin/Comment/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT c.*,a.title,ou.nickname FROM wjw_comment c INNER JOIN wjw_article a ON a.aid=c.aid INNER JOIN wjw_oauth_user ou ON ou.id=c.ouid  WHERE c.is_delete = 0 ORDER BY date desc LIMIT 0,15   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:52:19+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '19'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 19 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '18'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 18 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000023s ]
+
+[ 2017-10-24T14:52:24+08:00 ] 218.94.111.198 /index.php/Admin/Article/delete/aid/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_pic` WHERE `aid` = 17 [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_tag` WHERE `aid` = 17 [ RunTime:0.0032s ]
+SQL: DELETE FROM `wjw_article` WHERE `aid` = 17 [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000727s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T14:52:25+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '19'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 19 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '18'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 18 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:52:27+08:00 ] 218.94.111.198 /index.php/Admin/Article/delete/aid/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_pic` WHERE `aid` = 18 [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_tag` WHERE `aid` = 18 [ RunTime:0.0026s ]
+SQL: DELETE FROM `wjw_article` WHERE `aid` = 18 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000032s ]
+
+[ 2017-10-24T14:52:28+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '19'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 19 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:52:31+08:00 ] 218.94.111.198 /index.php/Admin/Article/delete/aid/19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0006s ]
+SQL: DELETE FROM `wjw_article_pic` WHERE `aid` = 19 [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: DELETE FROM `wjw_article_tag` WHERE `aid` = 19 [ RunTime:0.0019s ]
+SQL: DELETE FROM `wjw_article` WHERE `aid` = 19 [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:52:32+08:00 ] 218.94.111.198 /index.php/Admin/Recycle/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000037s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/thinkwjw/Application/Common/Model/ArticleModel.class.php 第 247 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T14:52:33+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T14:52:35+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000024s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T14:52:36+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000030s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T14:52:39+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T14:52:41+08:00 ] 218.94.111.198 /index.php/Admin/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000025s ]
+SQL: SHOW COLUMNS FROM `wjw_config` [ RunTime:0.0007s ]
+SQL: SELECT `name`,`value` FROM `wjw_config`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T15:07:53+08:00 ] 218.94.111.198 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000022s ]
+
+[ 2017-10-24T15:07:53+08:00 ] 218.94.111.198 /index.php/Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_chat` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_delete` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_chat` WHERE `is_show` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_comment` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000017s ]
+
+[ 2017-10-24T15:07:57+08:00 ] 218.94.111.198 /index.php/Admin/Tag/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T15:07:58+08:00 ] 218.94.111.198 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '26'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 26 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '25'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 25 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '24'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 24 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '23'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 23 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '22'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 22 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '21'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 21 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '20'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 20 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T15:08:00+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000028s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001333s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+
+[ 2017-10-24T15:08:01+08:00 ] 218.94.111.198 /index.php/Admin/Article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000026s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 ORDER BY addtime desc LIMIT 0,15   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '26'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 26 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '25'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 25 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '24'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 24 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '23'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 23 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '22'  [ RunTime:0.0005s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 22 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '21'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 21 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '20'  [ RunTime:0.0004s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 20 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 29  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000053s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000018s ]
+
+[ 2017-10-24T15:08:03+08:00 ] 218.94.111.198 /index.php/Admin/Article/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000020s ]
+
+[ 2017-10-24T15:08:07+08:00 ] 218.94.111.198 /index.php/Admin/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000027s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_oauth_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wjw_oauth_user` ORDER BY last_login_time desc LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000019s ]
+

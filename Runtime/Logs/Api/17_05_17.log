@@ -1,0 +1,109 @@
+[ 2017-05-17T10:58:20+08:00 ] 218.94.111.198 /thinkwjw/index.php/Api/Index/oauth/type/sina?code=4d38a57359874f5afd4c92544ca5ae51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0023s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0018s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0021s ]
+NOTIC: [2] Invalid argument supplied for foreach() /yjdata/www/thinkwjw/Application/Common/Model/CommentModel.class.php 第 202 行.
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: error_code /yjdata/www/thinkwjw/Application/Api/Controller/IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0019s ]
+SQL: INSERT INTO `wjw_oauth_user` (`uid`,`type`,`nickname`,`head_img`,`openid`,`access_token`,`create_time`,`last_login_time`,`last_login_ip`,`login_times`,`status`) VALUES ('0','2','王加文1221','http://tva2.sinaimg.cn/crop.0.0.664.664.180/9c2e0dc3jw8f062pzqwiyj20ig0ig40a.jpg','2620263875','2.00Z131rC1VsRYE999a8091725ucNrD','1494989900','1494989900','218.94.111.198','1','1') [ RunTime:0.0123s ]
+
+[ 2017-05-17T11:47:41+08:00 ] 218.94.111.198 /thinkwjw/index.php/Api/Index/oauth/type/sina?code=c18e59681cae1208172808d90edef95e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0023s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0019s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined index: error_code /yjdata/www/thinkwjw/Application/Api/Controller/IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0019s ]
+SQL: UPDATE `wjw_oauth_user` SET `uid`='0',`type`='2',`nickname`='王加文1221',`head_img`='http://tva2.sinaimg.cn/crop.0.0.664.664.180/9c2e0dc3jw8f062pzqwiyj20ig0ig40a.jpg',`openid`='2620263875',`access_token`='2.00Z131rC1VsRYE999a8091725ucNrD',`last_login_time`='1494992861',`last_login_ip`='218.94.111.198',`login_times`=login_times+1 WHERE `openid` = '2620263875' [ RunTime:0.0046s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2017-05-17T13:40:22+08:00 ] 218.94.111.198 /thinkwjw/index.php/Api/Index/oauth/type/sina?code=7affd3de7016e7b4e9937f5a8bfe43b9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0020s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0021s ]
+NOTIC: [2] Invalid argument supplied for foreach() /yjdata/www/thinkwjw/Application/Common/Model/CommentModel.class.php 第 202 行.
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: error_code /yjdata/www/thinkwjw/Application/Api/Controller/IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0021s ]
+SQL: UPDATE `wjw_oauth_user` SET `uid`='0',`type`='2',`nickname`='王加文1221',`head_img`='http://tva2.sinaimg.cn/crop.0.0.664.664.180/9c2e0dc3jw8f062pzqwiyj20ig0ig40a.jpg',`openid`='2620263875',`access_token`='2.00Z131rC1VsRYE999a8091725ucNrD',`last_login_time`='1494999622',`last_login_ip`='218.94.111.198',`login_times`=login_times+1 WHERE `openid` = '2620263875' [ RunTime:0.0045s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-05-17T13:41:36+08:00 ] 218.94.111.198 /thinkwjw/index.php/Api/Index/oauth/type/sina?code=dc1470094a891d277ca253399512cb8b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0020s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: error_code /yjdata/www/thinkwjw/Application/Api/Controller/IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `wjw_oauth_user` SET `uid`='0',`type`='2',`nickname`='王加文1221',`head_img`='http://tva2.sinaimg.cn/crop.0.0.664.664.180/9c2e0dc3jw8f062pzqwiyj20ig0ig40a.jpg',`openid`='2620263875',`access_token`='2.00Z131rC1VsRYE999a8091725ucNrD',`last_login_time`='1494999696',`last_login_ip`='218.94.111.198',`login_times`=login_times+1 WHERE `openid` = '2620263875' [ RunTime:0.0059s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0020s ]
+

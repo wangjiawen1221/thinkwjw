@@ -1,0 +1,68 @@
+[ 2017-07-17T13:45:18+08:00 ] 218.94.111.198 /index.php/Api/Index/oauth/type/sina?error_uri=%2Foauth2%2Fauthorize&error=access_denied&error_description=user%20denied%20your%20request.&error_code=21330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0009s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0004s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: access_token /var/www/html/thinkwjw/ThinkPHP/Library/Org/ThinkSDK/sdk/SinaSDK.class.php 第 57 行.
+ERR: 获取新浪微博ACCESS_TOKEN出错：invalid_grant
+
+[ 2017-07-17T13:45:28+08:00 ] 101.226.89.121 /index.php/Api/Index/oauth/type/sina?error_uri=/oauth2/authorize&error=access_denied&error_description=userdeniedyourrequest.&error_code=21330
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000034s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0008s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0004s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: access_token /var/www/html/thinkwjw/ThinkPHP/Library/Org/ThinkSDK/sdk/SinaSDK.class.php 第 57 行.
+ERR: 获取新浪微博ACCESS_TOKEN出错：invalid_grant
+
+[ 2017-07-17T21:11:27+08:00 ] 45.77.36.234 http://proxy.blowfish-rat.com/index.php/Api/Proxy/test_proxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载控制器:Proxy
+
+[ 2017-07-17T21:22:25+08:00 ] 45.77.36.234 http://proxy.blowfish-rat.com/index.php/Api/Proxy/test_proxy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载控制器:Proxy
+

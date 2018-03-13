@@ -1,0 +1,133 @@
+[ 2017-05-18T18:10:06+08:00 ] 218.94.111.198 /thinkwjw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0020s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0021s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2017-05-18T18:10:16+08:00 ] 218.94.111.198 /thinkwjw/index.php/Home/User/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0023s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0019s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-05-18T18:10:16+08:00 ] 218.94.111.198 /thinkwjw/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0024s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0020s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article` WHERE `is_delete` = 0 AND `is_show` = 1 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_article` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `wjw_article_tag` INNER JOIN wjw_tag ON wjw_article_tag.tid=wjw_tag.tid  WHERE `aid` = '17'  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_article_pic` [ RunTime:0.0022s ]
+SQL: SELECT `path` FROM `wjw_article_pic` WHERE `aid` = 17 ORDER BY ap_id asc LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `cid`,`cid`,`cname` FROM `wjw_category` WHERE `cid` = 28  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-05-18T18:10:19+08:00 ] 218.94.111.198 /thinkwjw/index.php/Home/User/oauth_login/type/sina
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0023s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0021s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0018s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0019s ]
+
