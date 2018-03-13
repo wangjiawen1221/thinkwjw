@@ -6,7 +6,7 @@
 
 ## 使用说明
 1. 请将项目内的所有文件直接放在根目录下；不要多层目录；  
-例如正确：www/;错误：www/thinkbjy/；
+例如正确：www/;错误：www/thinkwjw/；
 2. 后台登录密码默认为admin；
 3. 如果确认开启了mod_rewrite  
 请将/Application/Common/Conf/config.php中的URL_MODEL改为2以优化url  
