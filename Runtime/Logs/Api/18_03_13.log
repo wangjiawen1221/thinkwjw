@@ -1,0 +1,29 @@
+[ 2018-03-13T14:44:29+08:00 ] 49.65.117.17 /index.php/Api/Index/oauth/type/sina?code=8f42ccd6eb141af185decfae38f15281
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `wjw_article` [ RunTime:0.0009s ]
+SQL: SELECT `aid`,`title` FROM `wjw_article` WHERE `is_show` = 1 AND `is_delete` = 0 AND `is_top` = 1 ORDER BY aid desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wjw_comment` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE (  is_admin )  [ RunTime:0.0004s ]
+SQL: SELECT c.content,c.date,a.title,a.aid,ou.nickname,ou.head_img FROM wjw_comment c INNER JOIN wjw_article a ON c.aid=a.aid INNER JOIN wjw_oauth_user ou ON c.ouid=ou.id  WHERE c.is_delete = 0 ORDER BY c.date desc LIMIT 20   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wjw_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wjw_category` ORDER BY sort  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `wjw_tag` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_tag`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_article_tag` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 20 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 21 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wjw_article_tag` WHERE `tid` = 22 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wjw_link` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wjw_link` WHERE `is_delete` = 0 AND `is_show` = 1 ORDER BY sort  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: error_code /var/www/html/thinkwjw/Application/Api/Controller/IndexController.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `wjw_oauth_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `wjw_oauth_user` SET `uid`='0',`type`='2',`nickname`='王加文1221',`head_img`='http://tva2.sinaimg.cn/crop.0.0.664.664.180/9c2e0dc3jw8f062pzqwiyj20ig0ig40a.jpg',`openid`='2620263875',`access_token`='2.00Z131rC1VsRYE999a8091725ucNrD',`last_login_time`='1520923469',`last_login_ip`='49.65.117.17',`login_times`=login_times+1 WHERE `openid` = '2620263875' [ RunTime:0.0029s ]
+SQL: SELECT `id` FROM `wjw_oauth_user` WHERE `openid` = '2620263875' LIMIT 1   [ RunTime:0.0004s ]
+
